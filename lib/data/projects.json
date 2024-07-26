@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "title": "test project 1",
+    "description": "description",
+    "image": "/img/IMG_1169.jpg"
+  },
+  {
+    "id": "2",
+    "title": "test project 2",
+    "description": "description",
+    "image": "/img/IMG_1229.jpg"
+  }
+]
