@@ -3,12 +3,14 @@
     "id": "1",
     "title": "test project 1",
     "description": "description",
-    "image": "/img/test_1.jpg"
+    "image": "/img/test_1.jpg",
+    "link": ""
   },
   {
     "id": "2",
     "title": "test project 2",
     "description": "description",
-    "image": "/img/test_2.jpg"
+    "image": "/img/test_2.jpg",
+    "link": ""
   }
 ]

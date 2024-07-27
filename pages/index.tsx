@@ -1,17 +1,14 @@
-import Head from "next/head";
 import React from "react";
+import Layout from "../components/Layout";
 
 const Home: React.FC = () => {
   return (
-    <>
-      <Head>
-        <title>Home | My Portfolio</title>
-      </Head>
+    <Layout title="Home | My Portfolio">
       <div className="p-4">
         <h2>Welcome to my portfolio</h2>
         <p>This is the home page.</p>
       </div>
-    </>
+    </Layout>
   );
 };
 
