@@ -41,3 +41,15 @@ body {
     text-wrap: balance;
   }
 }
+
+.relative {
+  position: relative;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-96 {
+  height: 24rem; /* Adjust as necessary */
+}

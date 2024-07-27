@@ -2,7 +2,7 @@ import React from "react";
 import { GetStaticPaths, GetStaticProps } from "next";
 import fs from "fs";
 import path from "path";
-import Head from "next/head";
+import Layout from "../../../components/Layout";
 import Image from "next/image";
 import { IProject } from "../../../interfaces/Project";
 
@@ -12,26 +12,22 @@ type ProjectPageProps = {
 
 const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
   return (
-    <>
-      <Head>
-        <title>{project.title} | My Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
+    <Layout title={project.title}>
       <div className="p-4">
         <h1 className="text-2xl mb-4">{project.title}</h1>
         <div className="mb-4">
           <Image
             src={project.image}
             alt={project.title}
-            width={400}
-            height={300}
-            objectFit="cover"
+            width={600}
+            height={400}
             layout="responsive"
+            objectFit="cover"
           />
         </div>
         <p>{project.description}</p>
       </div>
-    </>
+    </Layout>
   );
 };
 

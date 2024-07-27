@@ -8,7 +8,7 @@ type CustomHeadProps = {
 const CustomHead: React.FC<CustomHeadProps> = ({ title }) => {
   return (
     <Head>
-      <title>{title} | My Portfolio</title>
+      <title>{title}</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </Head>
   );
