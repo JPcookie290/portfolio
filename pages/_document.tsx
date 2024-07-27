@@ -10,7 +10,6 @@ class MyDocument extends Document {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
-          <title>My Portfolio</title>
         </Head>
         <body className="flex flex-col min-h-screen">
           <Main />
