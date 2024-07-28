@@ -5,7 +5,7 @@ Warning: A title element received an array with more than 1 element as children.
     at html
     at Html (webpack-internal:///./node_modules/next/dist/pages/_document.js:782:132)
     at MyDocument (webpack-internal:///./pages/_document.tsx:11:1)
- GET /_next/data/development/projects/2.json?id=2 200 in 16ms
+ GET / 200 in 1414ms
 <w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Cannot find module 'mini-css-extract-plugin/dist/CssDependency'
 <w> Require stack:
 <w> - /Users/juliapaier/julia_paier/portfolio/my-portfolio/node_modules/next/dist/compiled/webpack/bundle5.js

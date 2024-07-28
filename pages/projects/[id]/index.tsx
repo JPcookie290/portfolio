@@ -6,11 +6,11 @@ import Layout from "../../../components/Layout";
 import Image from "next/legacy/image";
 import { IProject } from "../../../interfaces/Project";
 
-type ProjectPageProps = {
+type Props = {
   project: IProject;
 };
 
-const ProjectPage: React.FC<ProjectPageProps> = ({ project }) => {
+const ProjectPage: React.FC<Props> = ({ project }) => {
   return (
     <Layout title={project.title}>
       <div className="p-4">
@@ -37,7 +37,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const projects: IProject[] = JSON.parse(jsonData);
 
   const paths = projects.map((project) => ({
-    params: { id: project.id.toString() },
+    params: { id: project.id },
   }));
 
   return {
