@@ -6,7 +6,7 @@ const Home: React.FC = () => {
     <Layout title="Home">
       <div className="p-4">
         <h2>Welcome to my portfolio</h2>
-        <p>This is the home page.</p>
+        <p>This is the about me page.</p>
       </div>
     </Layout>
   );
