@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postcss": "ts-node postcss.config.ts",
+    "tailwind": "ts-node tailwind.config.ts"
   },
   "dependencies": {
     "autoprefixer": "^10.4.19",
@@ -15,13 +17,15 @@
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@types/node": "^20",
+    "@types/node": "^22.0.0",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "eslint": "^8",
+    "@types/tailwindcss": "^3.0.11",
+    "eslint": "^9.8.0",
     "eslint-config-next": "14.2.5",
     "postcss": "^8.4.40",
     "tailwindcss": "^3.4.7",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   },
   "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
