@@ -1,36 +1,10 @@
-npm warn ERESOLVE overriding peer dependency
-npm warn While resolving: my-portfolio@0.1.0
-npm warn Found: eslint@8.57.0
-npm warn node_modules/eslint
-npm warn   peer eslint@"^6.0.0 || ^7.0.0 || >=8.0.0" from @eslint-community/eslint-utils@4.4.0
-npm warn   node_modules/@eslint-community/eslint-utils
-npm warn     @eslint-community/eslint-utils@"^4.2.0" from eslint@8.57.0
-npm warn   8 more (@typescript-eslint/parser, eslint-config-next, ...)
-npm warn
-npm warn Could not resolve dependency:
-npm warn peer eslint@"^7.23.0 || ^8.0.0" from eslint-config-next@14.2.5
-npm warn node_modules/eslint-config-next
-npm warn   dev eslint-config-next@"14.2.5" from the root project
-npm warn ERESOLVE overriding peer dependency
-npm warn ERESOLVE overriding peer dependency
-npm warn ERESOLVE overriding peer dependency
-npm warn ERESOLVE overriding peer dependency
+punycode is deprecated => it's used in eslint:
 
-added 12 packages, removed 22 packages, changed 11 packages, and audited 375 packages in 2s
+my-portfolio@0.1.0 /Users/juliapaier/julia_paier/portfolio/my-portfolio
+└─┬ eslint@9.8.0 invalid: "^7.23.0 || ^8.0.0" from node_modules/eslint-config-next
+  └─┬ ajv@6.12.6
+    └─┬ uri-js@4.4.1
+      └── punycode@2.3.1
+      
+My current eslint@9.8.0
 
-node:internal/modules/cjs/loader:1222
-  throw err;
-  ^
-
-Error: Cannot find module '/Users/juliapaier/julia_paier'
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1219:15)
-    at Module._load (node:internal/modules/cjs/loader:1045:27)
-    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
-    at wrapModuleLoad (node:internal/modules/cjs/loader:215:24)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:158:5)
-    at node:internal/main/run_main_module:30:49 {
-  code: 'MODULE_NOT_FOUND',
-  requireStack: []
-}
-
-Node.js v22.4.1
