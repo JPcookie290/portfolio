@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "NODE_OPTIONS='--trace-deprecation' next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_OPTIONS='--trace-deprecation' next start",
     "lint": "next lint",
     "postcss": "ts-node postcss.config.ts",
     "tailwind": "ts-node tailwind.config.ts"

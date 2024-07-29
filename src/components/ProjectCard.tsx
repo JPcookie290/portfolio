@@ -16,7 +16,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           alt={project.title}
           width={400} // Adjust width as needed
           height={300} // Adjust height as needed
-          style={{ objectFit: "cover" }}
+          objectFit="cover"
         />
         <h3 className="text-xl mt-2">{project.title}</h3>
         <p>{project.description}</p>
