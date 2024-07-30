@@ -1,10 +1,4 @@
-punycode is deprecated => it's used in eslint:
+npm install --legacy-peer-deps
+npm install cross-env --save-dev
 
-my-portfolio@0.1.0 /Users/juliapaier/julia_paier/portfolio/my-portfolio
-└─┬ eslint@9.8.0 invalid: "^7.23.0 || ^8.0.0" from node_modules/eslint-config-next
-  └─┬ ajv@6.12.6
-    └─┬ uri-js@4.4.1
-      └── punycode@2.3.1
-      
-My current eslint@9.8.0
-
+cross-env NODE_OPTIONS='--trace-deprecation' next dev

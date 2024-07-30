@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "NODE_OPTIONS='--trace-deprecation' next dev",
+    "dev": "cross-env NODE_OPTIONS='--trace-deprecation' next dev",
     "build": "next build",
-    "start": "NODE_OPTIONS='--trace-deprecation' next start",
+    "start": "cross-env NODE_OPTIONS='--trace-deprecation' next start",
     "lint": "next lint",
     "postcss": "ts-node postcss.config.ts",
     "tailwind": "ts-node tailwind.config.ts"
@@ -21,7 +21,8 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/tailwindcss": "^3.0.11",
-    "eslint": "^9.8.0",
+    "cross-env": "^7.0.3",
+    "eslint": "~8.57.0",
     "eslint-config-next": "14.2.5",
     "postcss": "^8.4.40",
     "tailwindcss": "^3.4.7",
