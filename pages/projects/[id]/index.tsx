@@ -11,6 +11,7 @@ type Props = {
 };
 
 const ProjectPage: React.FC<Props> = ({ project }) => {
+
   return (
     <Layout title={project.title}>
       <div className="p-4">

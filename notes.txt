@@ -1,3 +1,4 @@
+# Current
 Warning: A title element received an array with more than 1 element as children. In browsers title Elements can only have Text Nodes as children. If the children being rendered output more than a single text node in aggregate the browser will display markup and comments as text in the title and hydration will likely fail and fall back to client rendering
     at title
     at head
@@ -26,3 +27,10 @@ Warning: A title element received an array with more than 1 element as children.
     at html
     at Html (webpack-internal:///./node_modules/next/dist/pages/_document.js:782:132)
     at MyDocument (webpack-internal:///./pages/_document.tsx:11:1)
+
+# New(20.07.2024) after npm install on Windows
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated @humanwhocodes/config-array@0.11.14: Use @eslint/config-array instead
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
