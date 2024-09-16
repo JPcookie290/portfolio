@@ -17,13 +17,9 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: black;
+  background: linear-gradient(to bottom, white, #daccdc);
+
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -51,5 +47,15 @@ body {
 }
 
 .h-96 {
-  height: 24rem; /* Adjust as necessary */
+  height: 24rem;
+}
+
+/* searched for on google */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }

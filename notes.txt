@@ -8,3 +8,4 @@ my-portfolio@0.1.0 /Users/juliapaier/julia_paier/portfolio/my-portfolio
       
 My current eslint@9.8.0
 
+Habe ein generelles Problem, muss noch nachfragen was ich machen soll. Ich kann keine Bibliothek dazu herrunterladen mit npm weil ESLint dagegen ist...

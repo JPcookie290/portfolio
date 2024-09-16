@@ -9,6 +9,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        lilac: "#DCC6E0",
+        lightOrange: "#F0D0BD",
+        pinkish: "#E9D8EB",
+        pastelGreen: "#7EC6A8",
+      },
     },
   },
   plugins: [],

@@ -1,7 +1,10 @@
 export interface IProject {
   id: string;
   title: string;
+  intro: string;
   description: string;
-  image: string;
-  link?: string;
+  mainImage: string;
+  images: string[];
+  links?: string[];
+  technologies: string[];
 }

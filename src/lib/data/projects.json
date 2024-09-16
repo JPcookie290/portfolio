@@ -1,16 +1,42 @@
 [
   {
     "id": "1",
-    "title": "test project 1",
-    "description": "description",
-    "image": "/img/test_1.jpg",
-    "link": ""
+    "title": "Battleship",
+    "intro": "This project is a Battleship Game built in Java, where the user can play against the computer. The game includes functionalities such as placing ships on the board (either manually or randomly), tracking hits and misses, and determining the game's winner. The player can also select different game modes and compete in an intuitive UI.",
+    "description": "The Battleship game project is a classic naval warfare game where the player competes against a computer opponent. The objective is to sink all of the opponent's ships before they sink yours. Players have the option to either manually place their ships on the gameboard or have them randomly placed by the system. Once the game begins, the player takes turns firing at the computer's ships by clicking on the gameboard, with the computer randomly selecting its own moves in return.The game includes a user interface that allows players to easily interact with the game, featuring buttons for starting the game, resetting the gameboard, and randomizing ship placement. The player can choose between two game modes, Easy and Normal, which adjust the difficulty of the computer's decision-making. The code is structured to ensure separation of concerns: the game logic is managed by the GameController class, which handles the flow of the game, including turns, hits, and misses. The Gameboard class keeps track of ship placement, and the GameboardUI class provides the graphical interface for displaying the gameboard and handling user interaction. Player and computer moves are managed by the Player and ComputerPlayer classes respectively, while the Ship class defines the ships used in the game, their size, and the logic for checking if they have been sunk. The game is initiated by the StartWindow class, which prompts the player to enter their name and choose a game mode. From there, the game runs in turns until one side has successfully sunk all of the opponent's ships. The Battleship game offers a simple, yet enjoyable experience for players, with room for future enhancements such as improved AI, animations for hits and misses, and a multiplayer mode.",
+    "mainImage": "/img/battleship_main.png",
+    "images": [
+      "/img/battleship_normal.png",
+      "/img/battleship_beginning.png",
+      "/img/battleship_easy_play.png",
+      "/img/battleship_start.png",
+      "/img/battleship_code_example_1.png",
+      "/img/battleship_code_example_2.png"
+    ],
+    "links": ["https://github.com/JPcookie290/BattleShip_Java"],
+    "technologies": ["java"]
   },
   {
     "id": "2",
-    "title": "test project 2",
-    "description": "description",
-    "image": "/img/test_2.jpg",
-    "link": ""
+    "title": "Memory Game",
+    "intro": "This project is a memory card game that challenges users to click on unique Pokémon without repeating their selections. Each click shuffles the cards, and the goal is to select all Pokémon without repeating any of them. The game tracks both the current score and the highest score achieved during the session.",
+    "description": "In this game, users are presented with a set of Pokémon cards. Clicking on a Pokémon triggers a shuffle, and if the user selects a Pokémon they haven't clicked before, their score increases. However, if they click on a previously selected Pokémon, their score resets to zero, and they must start again. The game also keeps track of the high score for the current session, allowing players to challenge themselves to beat their best performance.",
+    "mainImage": "/img/memory_main.png",
+    "images": [],
+    "links": [
+      "https://github.com/JPcookie290/project/tree/main",
+      "https://memory-game-3eh812qcg-jpcookie290s-projects.vercel.app"
+    ],
+    "technologies": ["react", "vite"]
+  },
+  {
+    "id": "3",
+    "title": "Virtual Pet",
+    "intro": "UNFINISHED",
+    "description": "Take care of your own small virtual pet feed, bath it and pit it to bed. !!!UNFINISHED!!! => need replacement",
+    "mainImage": "/img/virtual_pet_main.png",
+    "images": [],
+    "links": ["https://github.com/JPcookie290/project/tree/main"],
+    "technologies": ["javascript"]
   }
 ]
